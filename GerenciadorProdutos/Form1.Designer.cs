@@ -92,6 +92,7 @@
             this.cmbTipo.Name = "cmbTipo";
             this.cmbTipo.Size = new System.Drawing.Size(121, 21);
             this.cmbTipo.TabIndex = 6;
+            this.cmbTipo.SelectionChangeCommitted += new System.EventHandler(this.cmbTipo_SelectedIndexChanged);
             // 
             // txtAtributoEspecifico
             // 
